@@ -1,0 +1,19 @@
+﻿{
+  "Colors": {
+    "Favorite": "Blue"
+  },
+  "ConnectionStrings": {
+    "DutchContextDb": "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DutchTreatDb;Integrated Security=True;Connect Timeout=30;MultipleActiveResultSets = true;"
+  },
+  "Logging": {
+    "Loglevel": {
+      "Default": "Information",
+      "Microsoft": "Warning"
+    }
+  },
+  "Tokens": {
+    "Key": ";dsadsadsa;sdsadsadsad;asdsadsadsa;",
+    "Issuer": "http://localhost/21419",
+    "Audience":  "http://localhost:21419"
+  }
+}

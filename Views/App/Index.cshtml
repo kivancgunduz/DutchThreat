@@ -1,0 +1,69 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="row">
+    <div class="col-md-9">
+        <div class="product-info">
+            <img src="~/img/Seller Tool.png" />
+            <h2>App</h2>
+            <ul class="product-props">
+                <li>Mothly Price: 9.90</li>
+                <li>Annually Price: 99.90 </li>
+            </ul>
+
+            <button id="buyButton" class="btn btn-success">Buy</button>
+
+        </div>
+
+        <div id="theForm">
+            <form>
+                <label>Name:</label>
+                <br />
+                <input />
+                <br />
+                <label>E-mail Adress:</label>
+                <br />
+                <input type="email" />
+                <br />
+                <label>Message:</label>
+                <br />
+                <textarea rows="4"></textarea>
+                <br />
+                <input type="submit" value="Send your message!" />
+
+            </form>
+        </div>
+
+        <div>
+            <div id="loginToggle">Login</div>
+            <form class="popup-form">
+                <div>
+                    <label>Username</label>
+                    <input />
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" />
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <label>Remember me?</label>
+                </div>
+                <div>
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <p>This is a fun site to do something.</p>
+    </div>
+</div>
+
+
